@@ -1,0 +1,12 @@
+.bodySection{
+    background: linear-gradient( transparent, black 70%);
+    z-index: 1;
+    position: relative;
+    top: -15em;
+    padding: 2em;
+    padding-top: 17em;
+}
+
+.menu{
+    color: white;
+}
