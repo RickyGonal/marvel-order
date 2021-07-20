@@ -1,5 +1,5 @@
 .bodySection{
-    background: linear-gradient( transparent, black 70%);
+    background: linear-gradient( transparent, black 50%);
     z-index: 1;
     position: relative;
     top: -15em;
@@ -10,3 +10,37 @@
 .menu{
     color: white;
 }
+
+.titles{
+    width: 27em;
+    margin: 0.5em;
+    display: inline-block;
+    text-align: center;
+    height: 18em;
+    padding: 0;
+}
+
+h1{
+    margin-left: 1em;
+    font-family: Avenir-Heavy, sans-serif;
+    font-size: 20px;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 1.4;
+}
+
+img{
+    border: solid 0.2em transparent;
+    border-radius: 15px;
+    transition: 0.2s;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+img:hover{
+    border: solid 0.2em white;
+}
+

@@ -1,6 +1,10 @@
 <div class="bodySection">
     <h1 class="menu">Orden Cronológico</h1>
-    <div *ngFor="let movie of movies" class="titles">
-        {{movie.title}}
+    <div class="hilera">
+        <div *ngFor="let movie of movies" class="titles">
+            <a href={{movie.link}} target="_blank" class="portada">
+                <img src={{movie.image}} alt={{movie.title}}>
+            </a>
+        </div>
     </div>
 </div>

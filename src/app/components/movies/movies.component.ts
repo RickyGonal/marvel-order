@@ -17,22 +17,31 @@ export class MoviesComponent implements OnInit {
     this.movies = [
       {
         id: 0,
-        title: 'Iron Man',
-        image: 'portada Iron Man',
-        portada: 'portada Iron Man',
-        year: 2008,
-        link: 'pelicula Disney +',
-        sinopsis: 'sinopsis Iron Man'
+        title: 'Captain America',
+        image: 'https://bit.ly/3kyDYFu',
+        portada: 'portada Captain America',
+        year: 2011,
+        link: 'https://disneyplus.com/movies/capitan-america-y-el-soldado-del-invierno-de-marvel-studios/TVme5whcowSy?sharesource=iOS',
+        sinopsis: 'sinopsis Captain America'
       },
       {
         id: 1,
-        title: 'Hulk',
-        image: 'portada Hulk',
-        portada: 'portada Hulk',
+        title: 'Agent Carter',
+        image: 'https://bit.ly/36M3D5s',
+        portada: 'portada Agent Carter',
+        year: 2015-2016,
+        link: 'https://disneyplus.com/series/agente-carter/3rh3uclvsNsT?sharesource=iOS',
+        sinopsis: 'sinopsis Iron Man'
+      },
+      {
+        id: 2,
+        title: 'Iron Man',
+        image: 'https://bit.ly/3BmSFBp',
+        portada: 'portada Iron Man',
         year: 2008,
-        link: 'pelicula Disney +',
-        sinopsis: 'sinopsis Hulk'
-      }
+        link: 'https://disneyplus.com/movies/iron-man-de-marvel-studios/6aM2a8mZATiu?sharesource=iOS',
+        sinopsis: 'sinopsis Iron Man'
+      },
     ]
   }
 
