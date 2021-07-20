@@ -5,5 +5,6 @@ export class Movie{
 	portada: string = '';
 	year: number = 0;
 	link: string = '';
-	sinopsis: string = '';
+	serie: boolean = false;
+	description: string = '';
 }
