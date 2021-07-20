@@ -27,7 +27,7 @@ export class MoviesComponent implements OnInit {
       {
         id: 1,
         title: 'Agent Carter',
-        image: 'https://bit.ly/36M3D5s',
+        image: 'https://bit.ly/2Tn8ozk',
         portada: 'portada Agent Carter',
         year: 2015-2016,
         link: 'https://disneyplus.com/series/agente-carter/3rh3uclvsNsT?sharesource=iOS',
