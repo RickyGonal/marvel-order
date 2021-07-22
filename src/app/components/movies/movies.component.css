@@ -73,6 +73,17 @@ h2{
     line-height: 1.4;
 }
 
+h3{
+    margin-left: 1em;
+    font-family: Avenir-Heavy, sans-serif;
+    font-size: 3em;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 1.4;
+    text-decoration: none;
+}
+
 .titles img:hover{
     border: solid 0.2em white;
 }
