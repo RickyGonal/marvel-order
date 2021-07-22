@@ -5,13 +5,35 @@
     margin-top: 45em;
     top: -15em;
     padding: 2em;
-    padding-top: 17em;
+    padding-top: 5em;
 }
 
-.menu{
+div .menu{
     color: white;
+    margin: 0.5em;
+    display: inline-block;
+    width: auto;
+
 }
-img{
+
+div .submenu{
+    color: white;
+    margin: 0.5em;
+    display: inline-block;
+    width: auto;
+
+}
+
+div.logo{
+    width: 100%;
+    text-align: center;
+}
+
+div.logo img{
+    width: 20%;
+}
+
+.titles img{
     width: 97%;
     border: solid 0.2em transparent;
     border-radius: 15px;
@@ -41,7 +63,17 @@ h1{
     line-height: 1.4;
 }
 
-img:hover{
+h2{
+    margin-left: 2em;
+    font-family: Avenir-Heavy, sans-serif;
+    font-size: 17px;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 1.4;
+}
+
+.titles img:hover{
     border: solid 0.2em white;
 }
 
