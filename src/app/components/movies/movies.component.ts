@@ -475,7 +475,7 @@ export class MoviesComponent implements OnInit {
         image: 'https://bit.ly/2Wcd9gg',
         portada: 'portada Black Widow',
         year: 2021,
-        link: 'URL no disponible',
+        link: 'https://disneyplus.com/movies/black-widow/58cDnZ1oCzHS?sharesource=iOS',
         serie: false,
         description: ''
       },
